@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Detailpicture.DetailAs4">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="50dp"
+                android:text="*Koh Kho Khao*\nJust a ten minute boat ride from the Takua Pa area of Phang Nga province, Ko Kho Khao (pronounced kaw koe cow) doesn’t look very different from the mainland. However, for those seeking a family beach destination that’s not as remote as nearby Ko Phra Thong but not as busy as Khao Lak or Phuket, Kho Khao is worth a visit. The island’s long golden beaches are the main draw, and aesthetically these are similar to the beaches of the Khao Lak area further south. The waters are slightly murky and lack the pristine aquamarine hues of Ko Surin, to the west, but the beaches still make for great swimming, romantic walks and dazzling sunsets.\n*Location* Phangnga Province, Thailand "
+                android:textAlignment="center"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

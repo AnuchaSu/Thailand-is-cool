@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.anggarisky.majournal">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Detailpicture.DetailAs4"></activity>
+        <activity android:name=".Detailpicture.DetailAs3" />
+        <activity android:name=".Detailpicture.DetailAs2" />
+        <activity android:name=".Detailpicture.DetailAs1" />
+        <activity android:name=".Detailpicture.DetailAw4" />
+        <activity android:name=".Detailpicture.DetailAw3" />
+        <activity android:name=".Detailpicture.DetailAw2" />
+        <activity android:name=".Detailpicture.DetailAw1" />
+        <activity android:name=".Detailpicture.DetailAne4" />
+        <activity android:name=".Detailpicture.DetailAne3" />
+        <activity android:name=".Detailpicture.DetailAne2" />
+        <activity android:name=".Detailpicture.DetailAne1" />
+        <activity android:name=".Detailpicture.DetailAn4" />
+        <activity android:name=".Detailpicture.DetailAn3" />
+        <activity android:name=".Detailpicture.DetailAn2" />
+        <activity android:name=".Detailpicture.DetailAn1" />
+        <activity android:name=".Attractions.Ane" />
+        <activity android:name=".Attractions.Aw" />
+        <activity android:name=".Attractions.As" />
+        <activity android:name=".Attractions.MenuAttractions" />
+        <activity android:name=".Attractions.An" />
+        <activity android:name=".Food.Menufood" />
+        <activity android:name=".Food.fspacia" />
+        <activity android:name=".Food.fc" />
+        <activity android:name=".Food.fne" />
+        <activity android:name=".Food.fs" />
+        <activity android:name=".Food.fn" />
+        <activity android:name=".Bnfy" />
+        <activity android:name=".Culture.CSouth" />
+        <activity android:name=".Culture.CWest" />
+        <activity android:name=".Culture.CEast" />
+        <activity android:name=".Culture.CNorth" />
+        <activity android:name=".Culture.Culture" />
+        <activity android:name=".About" />
+        <activity
+            android:name=".Content"
+            android:label="@string/title_activity_content"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ConThemeAct" />
+    </application>
+
+</manifest>

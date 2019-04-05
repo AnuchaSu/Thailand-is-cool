@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Detailpicture.DetailAne1">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="*Phu Kradueng National Park* (Thai: อุทยานแห่งชาติภูกระดึง), in the Si Than sub-district of Amphoe Phu Kradueng, Loei Province, is one of the best known national parks of Thailand, with a high point of 1,316 m (4318 ft) elevation at Khok Moei. It was proclaimed a national park on 23 November 1962, the second national park of Thailand after Khao Yai National Park.The park is closed to visitors during the rainy season\n*Location*	Loei Province, Thailand"
+                android:layout_marginTop="50dp"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

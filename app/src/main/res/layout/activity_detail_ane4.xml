@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Detailpicture.DetailAne4">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="*St Michael's Church, Songyae* (Thai: วัดอัครเทวดามีคาแอล ซ่งแย้; RTGS: Wat Akkhara Thewada Mikha-aeo Songyae) is a Roman Catholic parish church in the northeastern Thai village of Nong Songyae, Kham Toei Sub-district, Thai Charoen District, Yasothon ProvinceNong (หนอง) indicates a fen; swampy or marshy land; Song (ซ่ง) is dialect for a group; yae (แย้) is the Beauty or Common Butterfly Lizard, Liolepis belliana.\n*Location* Yasothon Province, Thailand"
+                android:layout_marginTop="50dp"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

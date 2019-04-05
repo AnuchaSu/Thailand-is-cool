@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Detailpicture.DetailAne2">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="*Sam Pan Bok* (Thai: สามพันโบก) is known as the Grand Canyon of Thailand and has the biggest rock reef in the Mekong River. Sam Phan Bok translates as 3,000 holes. Sam Pan Bok is located in the Northeastern of Thailand (Isan), on the bank of Mekong river. Administratively, it forms Baan Phong Pao, Lao Ngam sub-district, Pho Sai District, Ubon Ratchathani province."
+                android:layout_marginTop="50dp"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

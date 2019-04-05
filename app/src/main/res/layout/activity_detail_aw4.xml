@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Detailpicture.DetailAw4">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="50dp"
+                android:text="*Kui Buri National Park* is a national park of Thailand in the Tenasserim Hills in Prachuap Khiri Khan Province. It was established in 1999.The park covers parts of the Pran Buri, Sam Roi Yot, and Mueang Prachuap Khiri Khan Districts of Prachuap Khiri Khan Province.The forests contain dry evergreen and moist evergreen forests. Important trees are Dipterocarpus tuberculatus, Hopea odorata, Terminalia chebula, and different species of palms.\n*Location*Prachuap Khiri Khan Province, Thailand"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

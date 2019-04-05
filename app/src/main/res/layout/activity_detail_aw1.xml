@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Detailpicture.DetailAw1">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="*Amphawa Floating Market* (Thai: ตลาดน้ำอัมพวา) is in the Amphawa District of Samut Songkhram Province. The Amphawa district is not far away from Bangkok. Amphawa floating market is the most popular in Thailand. The Amphawa Floating Market is 50 kilometers long. The market is near “Wat Amphawa Chetiyaram” temple. The Amphawa canal is on the Mae Klong river.Samut \n*Location*Samut Songkhram Province, Thailand"
+                android:layout_marginTop="50dp"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

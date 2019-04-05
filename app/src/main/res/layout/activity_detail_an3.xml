@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Detailpicture.DetailAn3">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="50dp"
+                android:text="*The Thi Lo Su Waterfall* (Thai: น้ำตกทีลอซู, RTGS: Namtok Thi Lo Su, also spelt as Thee Lor Sue, The Lor Sue, Thee Lor Sue or Te-law-zue; lit: Black Waterfall) is claimed to be the largest and highest waterfall in Thailand. It stands 250 metres (820 ft) high and nearly 450 metres (1,480 ft) wide on the Mae Klong River, flowing down from Huai Klotho into the Umphang Wildlife Sanctuary in Tak Province in northwestern Thailand.The waterfall has apparently never been surveyed, so the figures given are approximate.\n*Location*	Amphoe Umphang Tak Province, western Thailand"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
